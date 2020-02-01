@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4ABBA554322D72F34AC2EFAB /* Pods_Queuez.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 067A46EF92DDD9287BC5A760 /* Pods_Queuez.framework */; };
+		773EFAE423E524D000EFE9DE /* Private.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773EFAE323E524D000EFE9DE /* Private.swift */; };
+		77474564212A107700021C21 /* RobotoSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77474562212A103700021C21 /* RobotoSlab-Light.ttf */; };
+		77474565212A107A00021C21 /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77474563212A103800021C21 /* RobotoSlab-Regular.ttf */; };
+		7791E2BB211B913B00D7A1EF /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7791E2BA211B913B00D7A1EF /* DataService.swift */; };
+		77D8C3A8211CCF2C005EA041 /* QueueListObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D8C3A7211CCF2C005EA041 /* QueueListObject.swift */; };
+		77D8C3AA2120CDAA005EA041 /* MemberListObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D8C3A92120CDAA005EA041 /* MemberListObject.swift */; };
+		77D8C3AD2120D54E005EA041 /* MemberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D8C3AB2120D54E005EA041 /* MemberCell.swift */; };
+		77D8C3AE2120D54E005EA041 /* MemberCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77D8C3AC2120D54E005EA041 /* MemberCell.xib */; };
+		77F700EB21192146009B905A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F700EA21192146009B905A /* AppDelegate.swift */; };
+		77F700ED21192146009B905A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F700EC21192146009B905A /* LoginVC.swift */; };
+		77F700F021192146009B905A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77F700EE21192146009B905A /* Main.storyboard */; };
+		77F700F221192148009B905A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77F700F121192148009B905A /* Assets.xcassets */; };
+		77F700F521192148009B905A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77F700F321192148009B905A /* LaunchScreen.storyboard */; };
+		77F700FD2119690F009B905A /* QueuezMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F700FC2119690F009B905A /* QueuezMainVC.swift */; };
+		77F700FF21196931009B905A /* CreateQueueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F700FE21196931009B905A /* CreateQueueVC.swift */; };
+		77F701012119695C009B905A /* JoinQueueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F701002119695C009B905A /* JoinQueueVC.swift */; };
+		77F7010621196F7B009B905A /* QueueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F7010421196F7B009B905A /* QueueCell.swift */; };
+		77F7010721196F7B009B905A /* QueueCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77F7010521196F7B009B905A /* QueueCell.xib */; };
+		77F70109211A1808009B905A /* MyQueuezVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F70108211A1808009B905A /* MyQueuezVC.swift */; };
+		77F7010B211A1825009B905A /* JoinedQueuezVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F7010A211A1825009B905A /* JoinedQueuezVC.swift */; };
+		77F7010D211A1AE9009B905A /* InfoModalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F7010C211A1AE9009B905A /* InfoModalVC.swift */; };
+		77F7010F211A48F8009B905A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77F7010E211A48F8009B905A /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		067A46EF92DDD9287BC5A760 /* Pods_Queuez.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Queuez.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A3C5E559C05F23653E59D55 /* Pods-Queuez.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Queuez.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Queuez/Pods-Queuez.debug.xcconfig"; sourceTree = "<group>"; };
+		773EFAE323E524D000EFE9DE /* Private.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Private.swift; sourceTree = "<group>"; };
+		77474562212A103700021C21 /* RobotoSlab-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Light.ttf"; sourceTree = "<group>"; };
+		77474563212A103800021C21 /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
+		7791E2BA211B913B00D7A1EF /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		77D8C3A7211CCF2C005EA041 /* QueueListObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueListObject.swift; sourceTree = "<group>"; };
+		77D8C3A92120CDAA005EA041 /* MemberListObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberListObject.swift; sourceTree = "<group>"; };
+		77D8C3AB2120D54E005EA041 /* MemberCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberCell.swift; sourceTree = "<group>"; };
+		77D8C3AC2120D54E005EA041 /* MemberCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemberCell.xib; sourceTree = "<group>"; };
+		77F700E721192146009B905A /* Queuez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Queuez.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77F700EA21192146009B905A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77F700EC21192146009B905A /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		77F700EF21192146009B905A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77F700F121192148009B905A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77F700F421192148009B905A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77F700F621192148009B905A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77F700FC2119690F009B905A /* QueuezMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueuezMainVC.swift; sourceTree = "<group>"; };
+		77F700FE21196931009B905A /* CreateQueueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateQueueVC.swift; sourceTree = "<group>"; };
+		77F701002119695C009B905A /* JoinQueueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinQueueVC.swift; sourceTree = "<group>"; };
+		77F7010421196F7B009B905A /* QueueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueCell.swift; sourceTree = "<group>"; };
+		77F7010521196F7B009B905A /* QueueCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QueueCell.xib; sourceTree = "<group>"; };
+		77F70108211A1808009B905A /* MyQueuezVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyQueuezVC.swift; sourceTree = "<group>"; };
+		77F7010A211A1825009B905A /* JoinedQueuezVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinedQueuezVC.swift; sourceTree = "<group>"; };
+		77F7010C211A1AE9009B905A /* InfoModalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoModalVC.swift; sourceTree = "<group>"; };
+		77F7010E211A48F8009B905A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		944730423FFE5EE7F95A0345 /* Pods-Queuez.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Queuez.release.xcconfig"; path = "Pods/Target Support Files/Pods-Queuez/Pods-Queuez.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77F700E421192146009B905A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABBA554322D72F34AC2EFAB /* Pods_Queuez.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30A9EC3980A2295EA00C9880 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				067A46EF92DDD9287BC5A760 /* Pods_Queuez.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		773EFAE223E524BF00EFE9DE /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				773EFAE323E524D000EFE9DE /* Private.swift */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		77474561212A101E00021C21 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				77474562212A103700021C21 /* RobotoSlab-Light.ttf */,
+				77474563212A103800021C21 /* RobotoSlab-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7791E2B9211B912400D7A1EF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7791E2BA211B913B00D7A1EF /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		77D8C3A6211CCF07005EA041 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				77D8C3A7211CCF2C005EA041 /* QueueListObject.swift */,
+				77D8C3A92120CDAA005EA041 /* MemberListObject.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		77F700DE21192146009B905A = {
+			isa = PBXGroup;
+			children = (
+				77F700E921192146009B905A /* Queuez */,
+				77F700E821192146009B905A /* Products */,
+				D55AEB7A8BEDB18484C0D040 /* Pods */,
+				30A9EC3980A2295EA00C9880 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		77F700E821192146009B905A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77F700E721192146009B905A /* Queuez.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77F700E921192146009B905A /* Queuez */ = {
+			isa = PBXGroup;
+			children = (
+				773EFAE223E524BF00EFE9DE /* Private */,
+				77474561212A101E00021C21 /* Fonts */,
+				77D8C3A6211CCF07005EA041 /* Model */,
+				7791E2B9211B912400D7A1EF /* Services */,
+				77F7010221196969009B905A /* Controllers */,
+				77F7010321196985009B905A /* Views */,
+				77F700EA21192146009B905A /* AppDelegate.swift */,
+				77F700F121192148009B905A /* Assets.xcassets */,
+				77F700F621192148009B905A /* Info.plist */,
+				77F7010E211A48F8009B905A /* GoogleService-Info.plist */,
+			);
+			path = Queuez;
+			sourceTree = "<group>";
+		};
+		77F7010221196969009B905A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				77F700EC21192146009B905A /* LoginVC.swift */,
+				77F700FC2119690F009B905A /* QueuezMainVC.swift */,
+				77F700FE21196931009B905A /* CreateQueueVC.swift */,
+				77F701002119695C009B905A /* JoinQueueVC.swift */,
+				77F70108211A1808009B905A /* MyQueuezVC.swift */,
+				77F7010A211A1825009B905A /* JoinedQueuezVC.swift */,
+				77F7010C211A1AE9009B905A /* InfoModalVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		77F7010321196985009B905A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				77F700EE21192146009B905A /* Main.storyboard */,
+				77F700F321192148009B905A /* LaunchScreen.storyboard */,
+				77F7010421196F7B009B905A /* QueueCell.swift */,
+				77F7010521196F7B009B905A /* QueueCell.xib */,
+				77D8C3AB2120D54E005EA041 /* MemberCell.swift */,
+				77D8C3AC2120D54E005EA041 /* MemberCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D55AEB7A8BEDB18484C0D040 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A3C5E559C05F23653E59D55 /* Pods-Queuez.debug.xcconfig */,
+				944730423FFE5EE7F95A0345 /* Pods-Queuez.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77F700E621192146009B905A /* Queuez */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77F700F921192148009B905A /* Build configuration list for PBXNativeTarget "Queuez" */;
+			buildPhases = (
+				593A460F4BD91991A7084ABC /* [CP] Check Pods Manifest.lock */,
+				77F700E321192146009B905A /* Sources */,
+				77F700E421192146009B905A /* Frameworks */,
+				77F700E521192146009B905A /* Resources */,
+				CAC2601CB302FDB6DF3EC772 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Queuez;
+			productName = Queuez;
+			productReference = 77F700E721192146009B905A /* Queuez.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77F700DF21192146009B905A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Mycah Krason";
+				TargetAttributes = {
+					77F700E621192146009B905A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 77F700E221192146009B905A /* Build configuration list for PBXProject "Queuez" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77F700DE21192146009B905A;
+			productRefGroup = 77F700E821192146009B905A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77F700E621192146009B905A /* Queuez */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77F700E521192146009B905A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77474565212A107A00021C21 /* RobotoSlab-Regular.ttf in Resources */,
+				77F700F521192148009B905A /* LaunchScreen.storyboard in Resources */,
+				77474564212A107700021C21 /* RobotoSlab-Light.ttf in Resources */,
+				77F700F221192148009B905A /* Assets.xcassets in Resources */,
+				77F7010F211A48F8009B905A /* GoogleService-Info.plist in Resources */,
+				77D8C3AE2120D54E005EA041 /* MemberCell.xib in Resources */,
+				77F700F021192146009B905A /* Main.storyboard in Resources */,
+				77F7010721196F7B009B905A /* QueueCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		593A460F4BD91991A7084ABC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Queuez-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAC2601CB302FDB6DF3EC772 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Queuez/Pods-Queuez-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Queuez/Pods-Queuez-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77F700E321192146009B905A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F7010B211A1825009B905A /* JoinedQueuezVC.swift in Sources */,
+				77F7010D211A1AE9009B905A /* InfoModalVC.swift in Sources */,
+				77F701012119695C009B905A /* JoinQueueVC.swift in Sources */,
+				77F700FF21196931009B905A /* CreateQueueVC.swift in Sources */,
+				77D8C3A8211CCF2C005EA041 /* QueueListObject.swift in Sources */,
+				77F70109211A1808009B905A /* MyQueuezVC.swift in Sources */,
+				77F700ED21192146009B905A /* LoginVC.swift in Sources */,
+				77F7010621196F7B009B905A /* QueueCell.swift in Sources */,
+				77D8C3AD2120D54E005EA041 /* MemberCell.swift in Sources */,
+				773EFAE423E524D000EFE9DE /* Private.swift in Sources */,
+				77D8C3AA2120CDAA005EA041 /* MemberListObject.swift in Sources */,
+				77F700FD2119690F009B905A /* QueuezMainVC.swift in Sources */,
+				77F700EB21192146009B905A /* AppDelegate.swift in Sources */,
+				7791E2BB211B913B00D7A1EF /* DataService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77F700EE21192146009B905A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77F700EF21192146009B905A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77F700F321192148009B905A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77F700F421192148009B905A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77F700F721192148009B905A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77F700F821192148009B905A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77F700FA21192148009B905A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A3C5E559C05F23653E59D55 /* Pods-Queuez.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 478W25T2R7;
+				INFOPLIST_FILE = Queuez/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycahkrason.Queuez;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77F700FB21192148009B905A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 944730423FFE5EE7F95A0345 /* Pods-Queuez.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 478W25T2R7;
+				INFOPLIST_FILE = Queuez/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycahkrason.Queuez;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77F700E221192146009B905A /* Build configuration list for PBXProject "Queuez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F700F721192148009B905A /* Debug */,
+				77F700F821192148009B905A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77F700F921192148009B905A /* Build configuration list for PBXNativeTarget "Queuez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F700FA21192148009B905A /* Debug */,
+				77F700FB21192148009B905A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77F700DF21192146009B905A /* Project object */;
+}

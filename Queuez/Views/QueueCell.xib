@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="RobotoSlab-Light.ttf">
+            <string>RobotoSlab-Light</string>
+        </array>
+        <array key="RobotoSlab-Regular.ttf">
+            <string>RobotoSlab-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="queueCell" rowHeight="70" id="KGk-i7-Jjw" customClass="QueueCell" customModule="Queuez" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="69.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O7X-Gh-R7n">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="69.5"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="iSI-1a-B71">
+                                <rect key="frame" x="134.5" y="8.5" width="51.5" height="53"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WU2-ch-RIQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="51.5" height="26.5"/>
+                                        <fontDescription key="fontDescription" name="RobotoSlab-Regular" family="Roboto Slab" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y5E-ly-9uf">
+                                        <rect key="frame" x="0.0" y="26.5" width="51.5" height="26.5"/>
+                                        <fontDescription key="fontDescription" name="RobotoSlab-Light" family="Roboto Slab" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="iSI-1a-B71" firstAttribute="centerX" secondItem="O7X-Gh-R7n" secondAttribute="centerX" id="Qj5-lR-Yuz"/>
+                            <constraint firstItem="iSI-1a-B71" firstAttribute="centerY" secondItem="O7X-Gh-R7n" secondAttribute="centerY" id="YJ1-YH-ADP"/>
+                            <constraint firstAttribute="height" constant="70" id="upL-fg-Lj0"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="O7X-Gh-R7n" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="A77-jI-xBl"/>
+                    <constraint firstAttribute="bottom" secondItem="O7X-Gh-R7n" secondAttribute="bottom" id="R4Z-v0-BeM"/>
+                    <constraint firstItem="O7X-Gh-R7n" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="kNe-uh-OIK"/>
+                    <constraint firstAttribute="trailing" secondItem="O7X-Gh-R7n" secondAttribute="trailing" id="kf3-jQ-D9G"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="queueSubtitle" destination="y5E-ly-9uf" id="VQ3-az-rnI"/>
+                <outlet property="queueTitle" destination="WU2-ch-RIQ" id="R3W-cX-zoi"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="165"/>
+        </tableViewCell>
+    </objects>
+</document>
